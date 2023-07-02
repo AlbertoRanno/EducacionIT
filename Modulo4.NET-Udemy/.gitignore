@@ -1,0 +1,60 @@
+# Ignorar archivos y carpetas generados por Visual Studio
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.libs
+*.sbr
+*.scc
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+_ReSharper*/
+
+# Ignorar archivos y carpetas generados por herramientas de compilación
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignorar archivos y carpetas de NuGet
+packages/
+
+# Ignorar archivos de configuración local
+*.config.user
+
+# Ignorar archivos de inicio de sesión y credenciales
+*.sln.docstates
+*.suo
+*.userprefs
+*.usertasks
+
+# Ignorar archivos de análisis de código estático
+*.eslintcache
+*.stylelintcache
+
+# Ignorar archivos generados por IDE y editores de código
+.vs/
+*.vscode/
+*.sln.ide/
+*.suo
+*.ntvs*
+*.njsproj.user
+*.sln.docstates
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y carpetas específicas
+node_modules/
+bin/
+obj/

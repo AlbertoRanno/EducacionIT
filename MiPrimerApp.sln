@@ -13,9 +13,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays1D", "ConsoleApp1\Arr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IngresePassword", "IngresePassword\IngresePassword.csproj", "{0716C20B-8201-41E6-8084-5FCE1EE6E75F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays2D", "Arrays2D\Arrays2D.csproj", "{4FA9DE62-92D9-4848-A86D-7B169B8567D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays2D", "Arrays2D\Arrays2D.csproj", "{4FA9DE62-92D9-4848-A86D-7B169B8567D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMCPlatform", "Metodos\IMCPlatform.csproj", "{DBC81F44-9275-4F0D-88D5-40476C0AAA2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMCPlatform", "Metodos\IMCPlatform.csproj", "{DBC81F44-9275-4F0D-88D5-40476C0AAA2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC964926-FD61-44B0-9448-CB9F24DE89C8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsClient", "WinFormsClient\WinFormsClient.csproj", "{212CD6BE-3BB3-46FC-8083-1F9E7DE6FCEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +58,10 @@ Global
 		{DBC81F44-9275-4F0D-88D5-40476C0AAA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBC81F44-9275-4F0D-88D5-40476C0AAA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBC81F44-9275-4F0D-88D5-40476C0AAA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212CD6BE-3BB3-46FC-8083-1F9E7DE6FCEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212CD6BE-3BB3-46FC-8083-1F9E7DE6FCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212CD6BE-3BB3-46FC-8083-1F9E7DE6FCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212CD6BE-3BB3-46FC-8083-1F9E7DE6FCEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

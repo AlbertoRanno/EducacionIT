@@ -212,7 +212,7 @@ namespace IMCPlatform
 
             // string[,] TablaRef = new string[5, 3]; //5 filas 3 columnas - el encabezado no me sirve
             // preparo la app para que la data venga de afuera, para eso creo un metodo que disponibilice la data
-            string[,] TablaRef = ObtenerDatosRef(); // me traigo los datos
+            string[,] TablaRef = ObtenerDatosRef(); // Aca le pedimos datos al metodo
 
             //Traje la tabla, La recorro
             for (int Index = 0; Index < TablaRef.GetLength(0); Index++)
@@ -245,5 +245,11 @@ namespace IMCPlatform
         }
     }
 }
-//void solo ejecuta un bloque y muestra en consola
-//Nos falta ver la estructura de datos
+// void solo ejecuta un bloque y muestra en consola
+// Nos falta ver la estructura de datos
+// Clase interesante para bajar el video... panomarama de lo que vimos, de lo que se viene con .NET
+// Versiones, tecnologias, del framework, diseños para front en C#...
+// https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-7.0
+// https://learn.microsoft.com/en-us/dotnet/desktop/wpf/?view=netdesktop-7.0
+// https://dotnet.microsoft.com/en-us/apps/maui
+//Para interfaz grafica local vamos a usar windows form
